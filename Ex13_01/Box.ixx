@@ -25,7 +25,7 @@ public:
 		return volume() <=> other_volume;
 	}
 
-	bool operator==(const Box& other_box)
+	bool operator==(const Box& other_box) const
 	{
 		return m_length == other_box.m_length
 			&& m_width  == other_box.m_width

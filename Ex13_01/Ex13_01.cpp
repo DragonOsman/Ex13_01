@@ -14,7 +14,7 @@ import <format>;
 import box;
 
 void show(const Box& box);
-void show(const box& box1, std::string_view relationship, const Box& box2);
+void show(const Box& box1, std::string_view relationship, const Box& box2);
 
 int main()
 {
@@ -57,7 +57,7 @@ void show(const Box& box)
 		      << std::endl;
 }
 
-void show(const box& box1, std::string_view relationship, const Box& box2)
+void show(const Box& box1, std::string_view relationship, const Box& box2)
 {
 	show(box1);
 	std::cout << relationship;

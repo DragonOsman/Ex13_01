@@ -30,3 +30,13 @@
 *.exe
 *.out
 *.app
+*.suo
+*.db
+*.db-shm
+*.db-wal
+*.opendb
+*.json
+*.tlog
+*.ifc
+*.dt
+*.command
